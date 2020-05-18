@@ -1,2 +1,2 @@
 import os
-os.system('shutdown -s -f')
+print('Hello, World!')
