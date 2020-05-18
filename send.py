@@ -2,13 +2,11 @@ import smtplib as root
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-name = request.form.get("name")
-email = request.form.get("email")
-classed = request.form.get("classed")
+name = 'Sivert'
+email = 'wolf.siver@gmail.com'
+classed = '11'
 topic = 'REGISTER'
 toaddr = email
-if not name or not email or not classed:
-    return render_template("failder.html")
 message = f"Имя: {name}. Клас: {classed}"
 
 msg = MIMEMultipart()
