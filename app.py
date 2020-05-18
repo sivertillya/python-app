@@ -1,3 +1,3 @@
 import os
 print('Hello, World!')
-os.system('ipconfig')
+os.system('ifconfig')
